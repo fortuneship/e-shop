@@ -3,9 +3,8 @@ import { Search, ShoppingCartOutlined } from '@material-ui/icons';
 import React from 'react'
 import { mobile } from "../responsive";
 import { useSelector } from "react-redux";
-
-
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 const Container = styled.div`
     height: 60px;
@@ -89,11 +88,13 @@ const Navbar = () => {
                 <Right>
                     <MenuItem>REGISTER</MenuItem>
                     <MenuItem>SIGN IN</MenuItem>
+                    <Link to="/cart">
                     <MenuItem>
                     <Badge badgeContent={quantity} color="secondary">
                         <ShoppingCartOutlined color="action" />
                     </Badge>
                     </MenuItem>
+                    </Link>
                 </Right>
             </Wrapper>
         </Container>
