@@ -1237,10 +1237,10 @@
   "resolved" "https://registry.npmjs.org/strip-json-comments/-/strip-json-comments-2.0.1.tgz"
   "version" "2.0.1"
 
-"stripe@^8.174.0":
-  "integrity" "sha512-UFU5TuYH7XwUmSllUIcIKhhsvvhhjw9D6ZwVdfB74wU4VOOaWBiQqszkw6chaEFpdulUmbcAH5eZltV3HwOi7g=="
-  "resolved" "https://registry.npmjs.org/stripe/-/stripe-8.174.0.tgz"
-  "version" "8.174.0"
+"stripe@^8.194.0":
+  "integrity" "sha512-iERByJUNA7sdkfQ3fD1jcrAZqPxCtTmL2EUzvHUVLXyoacDrflkq4ux5KFxYhfCIerrOAhquVj17+sBHn96/Kg=="
+  "resolved" "https://registry.npmjs.org/stripe/-/stripe-8.194.0.tgz"
+  "version" "8.194.0"
   dependencies:
     "@types/node" ">=8.1.0"
     "qs" "^6.6.0"
